@@ -1,6 +1,8 @@
-import React, {useReducer, useState} from 'react'
+import React, {useReducer} from 'react'
 
-interface Action{type: "INCREASE" | { type : "DECREASE" };}
+// interface Action{
+//     type: "INCREASE" | { type : "DECREASE" };
+// }
 
 function reducer(state: number, action: any): number{
     switch (action.type){
@@ -28,4 +30,4 @@ function UseReducer(){
     );
 }
 
-export default  UseReducer;
+export default UseReducer;
